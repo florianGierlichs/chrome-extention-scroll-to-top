@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Scroll to Top",
+  "version": "1.0",
+  "description": "Scroll to the top of the page.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_popup": "",
+    "default_icon": {
+      "16": "arrow-up.png",
+      "48": "arrow-up.png",
+      "128": "arrow-up.png"
+    }
+  },
+  "icons": {
+    "16": "arrow-up.png",
+    "48": "arrow-up.png",
+    "128": "arrow-up.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
